@@ -1,0 +1,30 @@
+<h2>{{clcn}}</h2>
+
+
+
+<table id="t01">
+  <tr>
+     <th>date</th>
+    <th>clinicname</th>
+    <th>patientname</th> 
+    <th>description</th>
+  </tr>
+     {{# each bks}}
+
+    <tr>
+        <td> {{date}} </td>
+    <td>{{clinicname}}</td>
+    <td>{{patientname}}</td>
+    <td>{{description}}</td>
+  </tr>
+ {{/each}}
+
+  
+</table> <br>
+           <button class="btn btn-primary" type="submit">delete</button>
+           <button class="btn btn-primary" type="submit">change</button>
+
+
+
+</body>
+</html>
